@@ -1,5 +1,8 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://yudiaochan.github.io',
+  site: 'https://vz-gao.github.io',
+  build: {
+    format: 'file'
+  }
 });
